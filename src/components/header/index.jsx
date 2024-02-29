@@ -15,10 +15,10 @@ const Header = () => {
         }}>
             <Avatar sx={{ bgcolor: deepOrange[500] }}>N</Avatar>
             <Typography variant="h5">
-                <Link to='/' style={{textDecoration: 'none', color: 'black'}}><HomeIcon/>Inicio</Link>
+                <Link to='/home' style={{textDecoration: 'none', color: 'black'}}><HomeIcon/>Inicio</Link>
             </Typography>
             <Typography variant="h5">
-                <Link to='/' style={{textDecoration: 'none', color: 'black'}}><StoreIcon/>Tienda</Link>
+                <Link to='/store' style={{textDecoration: 'none', color: 'black'}}><StoreIcon/>Tienda</Link>
             </Typography>
             <Typography variant="h5">
                 <Link to='/' style={{textDecoration: 'none', color: 'black'}}><LocalGroceryStoreIcon/>Carrito</Link>
